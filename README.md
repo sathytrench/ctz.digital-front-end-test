@@ -5,7 +5,7 @@ The following is a challenge of both front-end functionality and UI/UX. There ar
 1. Fork this repo
 2. Create an app (`create-react-app` is totally fine!) view leveraging the sample `data.json` file to do the following:
 
-## H2 Company Info
+## Company Info
   - [ ] display the company name
   - [ ] display the `enabled` status and able to toggle `true | false`
   - [ ] display `testPublisher` status and able to toggle `true | false`
@@ -14,7 +14,7 @@ The following is a challenge of both front-end functionality and UI/UX. There ar
   - [ ] display the current revenue share and is able to modify as well (range from .1 -> .9)
   - [ ] **BONUS** link to default terms of service with optional uploader for custom terms of service
 
-## H2 Site(s) Info
+## Site(s) Info
   - [ ] display siteid
   - [ ] display site name
   - [ ] display site URL
