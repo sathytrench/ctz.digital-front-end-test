@@ -28,6 +28,5 @@ brand colors:
 * #1E9AAA (aqua)
 * #fdb000 (golden-yellow)
 * #06d6a0 (green)
-================
 * #4e4e4e (black)
 * #ffffff (white)
