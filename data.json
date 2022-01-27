@@ -1,0 +1,103 @@
+{
+    "organizationId": 12345667890,
+    "name": "My Test Company",
+    "settings": {
+        "general": {
+            "enabled": true,
+            "testPublisher": true,
+            "timezone": "Europe/Rome",
+            "accountType": "CTPlus"
+        },
+        "revenue": {
+            "publisherShare": 0.4
+        },
+        "document": {
+            "defaultTerms": true
+        }
+    },
+    "sites": [
+        {
+            "id": 1234,
+            "displayName": "mockpublisher.com",
+            "domain": "https://mockpublisher.com",
+            "enabled": true,
+            "scriptDelay": null,
+            "activeProducts": [
+                {
+                    "type": "Leave-Behind",
+                    "devices": [
+                        {
+                            "type": "mobile",
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Overlay",
+                    "devices": [
+                        {
+                            "type": "desktop",
+                            "enabled": true
+                        },
+                        {
+                            "type": "mobile",
+                            "enabled": false
+                        },
+                        {
+                            "type": "tablet",
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Interstitial",
+                    "devices": [
+                        {
+                            "type": "desktop",
+                            "enabled": true
+                        },
+                        {
+                            "type": "mobile",
+                            "enabled": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5678,
+            "name": "testpublisher.com",
+            "domain": "https://testpublisher.com",
+            "enabled": false,
+            "scriptDelay": 5000,
+            "activeProducts": [
+                {
+                    "type": "Leave-Behind",
+                    "devices": [
+                        {
+                            "type": "mobile",
+                            "enabled": false
+                        }
+                    ]
+                },
+                {
+                    "type": "Parallax",
+                    "devices": [
+                        {
+                            "type": "desktop",
+                            "enabled": true
+                        },
+                        {
+                            "type": "mobile",
+                            "enabled": true
+                        },
+                        {
+                            "type": "tablet",
+                            "enabled": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
