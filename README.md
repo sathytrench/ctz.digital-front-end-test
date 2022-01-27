@@ -3,7 +3,7 @@ A repo to be forked by Front End Dev applicants
 
 The following is a challenge of both front-end functionality and UI/UX. There are no framework/module restrictions, although Clicktripz does work in React with a heavy lean on MUI  ;)
 1. Fork this repo
-2. Create an app view leveraging the sample `data.json` file to do the following:
+2. Create an app (`create-react-app` is totally fine!) view leveraging the sample `data.json` file to do the following:
 
 ## H2 Company Info
   - [ ] display the company name
