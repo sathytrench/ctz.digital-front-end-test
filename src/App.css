@@ -1,0 +1,60 @@
+.logo {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.select-container {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+
+.field-container {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 8px;
+  background: #BDF4FB;
+  max-width: 300px;
+}
+
+.sites-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: #000000 solid;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  background: #fdb000;
+}
+
+.script-delay {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 3px;
+  background: #1E9AAA;
+}
+
+.button {
+  border-radius: 5px;
+  margin: 10px;
+  background: #06d6a0;
+  width: 100px;
+}
+

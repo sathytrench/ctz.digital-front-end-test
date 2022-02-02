@@ -30,3 +30,9 @@ brand colors:
 * #06d6a0 (green)
 * #4e4e4e (black)
 * #ffffff (white)
+
+# SCRIPTS
+
+### `npm start`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
