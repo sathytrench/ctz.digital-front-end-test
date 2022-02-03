@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Button, Checkbox, Container, FormControl, FormControlLabel, MenuItem, Select, TextField, Typography } from '@material-ui/core';
+import { Box, Button, Checkbox, FormControl, FormControlLabel, MenuItem, Select, TextField, Typography } from '@material-ui/core';
 
 import logo from './logo.svg';
 import './App.css';
@@ -30,7 +30,7 @@ function App() {
         <img src={logo} className="logo" alt="logo" />
         <Typography variant="h1" component="h1">Welcome, {data.name}!</Typography>
       </header>
-      <Container className="container">
+      <Box className="container">
         <Box className="company-container">
           <Typography variant="h4" component="h1">Company Info</Typography>
           <Box className="field-container">
@@ -154,7 +154,7 @@ function App() {
         <Box className="button">
           <Button onClick={()=>console.log("We'll probably need this one day")}>SAVE CHANGES</Button>
         </Box>
-      </Container>
+      </Box>
     </div>
   );
 }
